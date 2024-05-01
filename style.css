@@ -1,0 +1,108 @@
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+
+  body{
+    background-image: url(./imges/book.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  li a{
+   
+    text-decoration: none;
+    display: block;
+        list-style-type: none;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white
+  }
+  li a {
+    display: block;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  li a {
+    display: inline;
+    margin-top: 10px;
+  }
+  
+  #design {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+    #more{
+      padding: 10px 22px 10px 22px;
+      border-radius: 10px;
+      background-color: transparent;
+      border: 1px solid rgb(243, 66, 12);
+      
+    }
+   #more:hover{
+     background-color: rgb(153, 152, 152);
+     cursor: pointer;
+     color: white;
+   }
+   #sub{
+    padding: 10px 22px 10px 22px;
+      border-radius: 10px;
+      background-color: transparent;
+      border: 1px solid rgb(243, 66, 12);
+   }
+   #sub:hover{
+    background-color: rgb(153, 152, 152);
+    cursor: pointer;
+    color: white;
+   }
+   #more, #sub {
+    margin-right: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
